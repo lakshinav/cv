@@ -5,8 +5,8 @@ const templateData = require('./metadata/metadata');
 const Puppeteer = require('puppeteer');
 const getSlug = require('speakingurl');
 const dayjs = require('dayjs');
-const repoName = require('git-repo-name');
-const username = require('git-username');
+const repoName = require('cv);
+const username = require('lakshinav');
 
 const srcDir = __dirname;
 const outputDir = __dirname + '/../dist';
