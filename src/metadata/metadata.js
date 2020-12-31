@@ -1,27 +1,22 @@
 module.exports = {
-  name: 'William Shakespeare',
-  title: 'Poet, playwright and actor',
+  name: 'Valeriya Lakshina',
+  title: 'Econometrician, data science enthusiast',
   facts: {
-    'Residence': 'London',
-    'Homepage': `<a href="https://en.wikipedia.org/wiki/William_Shakespeare">
-                  <span class="print">https://en.wikipedia.org/wiki/William_Shakespeare</span>
+    'Residence': 'Nizhny Novgorod',
+    'Homepage': `<a href="https://www.hse.ru/en/staff/lakshinav">
+                  <span class="print">https://www.hse.ru/en/staff/lakshinav</span>
                   <span class="screen">wiki</span>
                 </a>`,
-    'Email': '<a href="mailto:wil64@yahoo.com">wil64@yahoo.com</a>'
+    'Email': '<a href="mailto:me">lakshinav@gmail.com</a>'
   },
   skills: [
-    ['Comedy', '++++'],
-    ['Love', '++++'],
-    ['Theater', '++++'],
-    ['Tragedy', '++++'],
-    ['Poetry', '++++'],
-    ['Erotic', '+++'],
-    ['Sonnets', '++++'],
-    ['Plays', '++++'],
-    ['Writing', '++++'],
-    ['Directing', '+++'],
-    ['Literature', '++++'],
-    ['Influence', '++++'],
+    ['Econometrics', '+++++'],
+    ['Statistics', '+++'],
+    ['Python', '+++'],
+    ['R', '++++'],
+    ['Data Visualization', '++++'],
+    ['Azure App Service', '+'],
+    ['Docker', '+'],
   ],
   plays: [
     {
