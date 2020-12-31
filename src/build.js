@@ -5,7 +5,7 @@ const templateData = require('./metadata/metadata');
 const Puppeteer = require('puppeteer');
 const getSlug = require('speakingurl');
 const dayjs = require('dayjs');
-const repoName = require('cv);
+const repoName = require('cv');
 const username = require('lakshinav');
 
 const srcDir = __dirname;
