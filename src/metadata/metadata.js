@@ -22,7 +22,7 @@ module.exports = {
   skills: [
     ['Econometrics', '++++'],
     ['R', '++++'],
-    ['Data Visualization', '++++'],
+    ['Data Viz', '++++'],
     
     ['SQL', '+++'],
     ['Statistics', '+++'],
