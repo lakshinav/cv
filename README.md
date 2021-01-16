@@ -1,3 +1,11 @@
+# Important links
+
+* [My page](https://lakshinav.github.io/cv/)
+* Sneas [source](https://github.com/lakshinav/cv-1)
+* Demo: [http://sneas.github.io/cv-template](http://sneas.github.io/cv-template).
+* Real world example: [http://sneas.github.io/cv](http://sneas.github.io/cv).
+
+
 # The Curriculum Vitae Template
 
 You are an amazing developer. Keep your CV on GitHub. Host it on GitHub Pages. Have both HTML and PDF versions automatically generated and consistent. This is what good developers do.
