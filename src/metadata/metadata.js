@@ -36,6 +36,19 @@ module.exports = {
     ['sk-learn', '+++'],
     ['TPOT', '+++'],
     ['sktime', '+++'],
+    
+    // tpot + sktime = AutoML
+    // web-scraping
+    
+    // Tech stack:
+    // web-scraping: BeatifulSoap, API
+    // data storage: SQL, 
+    // data preprocessing: GE, pandas
+    // ML: sk-learn, Keras
+    // AutoML: TPOT, sktime
+    // ML pipeline: kedro
+    // testing: hypothesis
+    // CI/CD: GH Actions, Docker
   ],
   plays: [
     {
