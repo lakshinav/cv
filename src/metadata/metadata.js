@@ -4,7 +4,7 @@ module.exports = {
   facts: {
     'Residence': `<a href="https://www.google.com/maps/place/%D0%9D%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9+%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4,+%D0%9D%D0%B8%D0%B6%D0%B5%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB./@57.4592207,28.2213876,4.14z/data=!4m5!3m4!1s0x4151d5f9ee033251:0x28d3c0cf849657aa!8m2!3d56.3268684!4d44.0058793">
                   <span class="screen">Nizhny Novgorod</span>
-                </a>`
+                </a>`,
     'Homepage': `<a href="https://www.hse.ru/en/staff/lakshinav">
                   <span class="print">https://www.hse.ru/en/staff/lakshinav</span>
                   <span class="screen">www.hse.ru</span>
