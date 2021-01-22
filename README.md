@@ -5,6 +5,12 @@
 * Demo: [http://sneas.github.io/cv-template](http://sneas.github.io/cv-template).
 * Real world example: [http://sneas.github.io/cv](http://sneas.github.io/cv).
 
+# todo
+
+* add profesional training (see "positions" in metadata.js
+* add student projects?
+* check skills: they are displayed not incorrectly
+* add git skill
 
 # The Curriculum Vitae Template
 
