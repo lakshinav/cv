@@ -3,14 +3,14 @@ module.exports = {
   title: 'Associate Professor',
   baseUrl: 'https://lakshinav.github.io/cv/',
   facts: {
-    Residence: '<a href="https://goo.gl/maps/E3t2hfHBFCitGqzw7">
+    Residence: `<a href="https://goo.gl/maps/E3t2hfHBFCitGqzw7">
                 <i class="fa fa-home fact-icon">  
                 Nizhny Novgorod</i>
-                </a>',
-    Homepage: '<a href="https://www.hse.ru/en/staff/lakshinav">
+                </a>`,
+    Homepage: `<a href="https://www.hse.ru/en/staff/lakshinav">
                   <span class="print">https://www.hse.ru/en/staff/lakshinav</span>
                   <span class="screen">www.hse.ru</span>
-                </a>',
+                </a>`,
     GitHub: '<a href="https://github.com/lakshinav"><i class="fab fa-github fact-icon"></i>lakshinav</a>',
     Email: '<a href="mailto:lakshinav@gmail.com">lakshinav@gmail.com</a>'
 //     'LinkedIn': 
