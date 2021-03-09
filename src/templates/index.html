@@ -49,7 +49,7 @@
         Econometrician, big fan of data science especially in time series context. Earn PhD for the <a href="https://www.hse.ru/sci/diss/266443004">research</a> on multivariate volatility models 
         and their application for financial time series modelling.
     </p>
-
+ <!--
     <h2>Professional Experience</h2>
     {{#each plays}}
     <div class="card mb-4">
@@ -70,7 +70,7 @@
     {{/each}}
 
     
-    <!--
+   
 ???
 Current projects
 * Data preprocessing and analysis using the example of Istok LLC data: plotly/dash, follium, Yandex Geocode, SQLite
@@ -78,20 +78,28 @@ Current projects
 -->
 
     <h2>Professional training</h2>
-    {{#each plays}}
-    <div class="card mb-4">
+    {{#each positions}}
+    <div class="card mb-4" style="">
         <div class="card-body">
-            <h3>{{ title }}</h3>
-            <p>{{ position }}</p>
-            <p class="text-muted">{{ written }}</p>
+            <h3>{{ company }},
+                <small>{{ location }}</small>
+            </h3>
+            <p>{{ title }}</p>
+            <p class="text-muted">{{ period }}</p>
 
-            {{{markdown contents }}}
+            <div>{{{markdown contents }}}</div>
 
-            <div>
-                {{#each badges }}
+            <p>
+                {{#each skills }}
                 <span class="badge badge-primary">{{ this }}</span>
                 {{/each}}
-            </div>
+            </p>
+
+            {{#if review}}
+            <p>
+                Reference: <a href="{{ ../baseUrl }}{{ review.file }}">{{ review.author }}</a>
+            </p>
+            {{/if}}
         </div>
     </div>
     {{/each}}
