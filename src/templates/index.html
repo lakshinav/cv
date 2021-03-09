@@ -79,27 +79,17 @@ Current projects
 
     <h2>Professional training</h2>
     {{#each positions}}
-    <div class="card mb-4" style="">
+    <div class="card mb-4">
         <div class="card-body">
-            <h3>{{ company }},
-                <small>{{ location }}</small>
-            </h3>
-            <p>{{ title }}</p>
-            <p class="text-muted">{{ period }}</p>
-
-            <div>{{{markdown contents }}}</div>
-
-            <p>
-                {{#each skills }}
+            <h3>{{ title }}</h3>
+            <p>{{ position }}</p>
+            <p class="text-muted">{{ written }}</p>
+            {{{markdown contents }}}
+            <div>
+                {{#each badges }}
                 <span class="badge badge-primary">{{ this }}</span>
                 {{/each}}
-            </p>
-
-            {{#if review}}
-            <p>
-                Reference: <a href="{{ ../baseUrl }}{{ review.file }}">{{ review.author }}</a>
-            </p>
-            {{/if}}
+            </div>
         </div>
     </div>
     {{/each}}
