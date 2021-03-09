@@ -6,7 +6,7 @@ module.exports = {
     Residence: `<a href="https://goo.gl/maps/E3t2hfHBFCitGqzw7">
                 <i class="fa fa-home fact-icon"></i>Nizhny Novgorod</a>`,
     Homepage: `<a href="https://www.hse.ru/en/staff/lakshinav">
-                <i class="fa fa-znak fact-icon"></i>
+                <i class="fab fa-znak fact-icon"></i>
                   <span class="print">https://www.hse.ru/en/staff/lakshinav</span>
                   <span class="screen">hse.ru</span>
                 </a>`,
