@@ -4,12 +4,12 @@ module.exports = {
   baseUrl: 'https://lakshinav.github.io/cv/',
   facts: {
     Residence: `<a href="https://goo.gl/maps/E3t2hfHBFCitGqzw7">
-                <i class="fa fa-home fact-icon">  
-                Nizhny Novgorod</i>
-                </a>`,
+                <i class="fa fa-home fact-icon"></i>
+                <span class="screen">Nizhny Novgorod</span>Nizhny Novgorod</a>`,
     Homepage: `<a href="https://www.hse.ru/en/staff/lakshinav">
+                <i class="fa fa-home znak"></i>
                   <span class="print">https://www.hse.ru/en/staff/lakshinav</span>
-                  <span class="screen">www.hse.ru</span>
+                  <span class="screen">hse.ru</span>
                 </a>`,
     GitHub: '<a href="https://github.com/lakshinav"><i class="fab fa-github fact-icon"></i>lakshinav</a>',
     Email: '<a href="mailto:lakshinav@gmail.com">lakshinav@gmail.com</a>'
@@ -22,7 +22,7 @@ module.exports = {
   skills: [
     ['Econometrics', '+++++'], ['Statistics', '++++'], ['R', '+++++'], ['LaTeX', '+++++'], ['knitr', '++++'], ['SQL', '+++'],
     ['Python', '+++'], ['pandas', '+++'], ['sk-learn', '+++'],  ['TPOT', '+++'], ['sktime', '+++'], ['dash/plotly', '+++']
-    ['CI/CD', '++'], ['ML pipeline', '++']
+    ['CI/CD', '++'], ['Kedro', '++']
     // tpot + sktime = AutoML
     // web-scraping
     
@@ -65,10 +65,19 @@ module.exports = {
       title: '<a href="https://cs.hse.ru/dpo/announcements/414116513.html">ML pipelines in production</a>',
       position: 'HSE University and Sber', 
       written: '11.2020-12.2020',
-      badges: ['kedro', 'fastAPI', 'hypothesis', 'CI/CD', 'Docker', '', '', '', ''],
+      badges: ['kedro', 'fastAPI', 'hypothesis', 'CI/CD', 'Docker', 'streamlit'],
       contents: `
-      This online-course is supported by Russian Federal Project "Human Resources for the Digital Economy".
-      It's devoted to digital transformation of Russian economy and the role of CDO's.
+      During this course I've build a ML pipeline on the basis of my Jupyter notebook.  
+      The notebook is devoted to the time series prediction, namely the prediction of unemployment in Russia, and prepared for my students at HSE University.
+      The pipline is built in Kedro environment and includes:
+
+      * web-scraping step for collecting data (BeatifulSoap)
+      * building prediction (pandas, statsmodels)
+      * testing (hypothesis, Github Actions)
+      * serving the result by API (fastAPI, uvicorn)
+      * scheduling the pipeline tasks, e.g. web-scraping (airflow)
+      * containerizing the pipeline (Docker)
+      * evaluating metrics and presentring them on a dashboard (streamlit)
       `
     },
     {
@@ -88,7 +97,7 @@ module.exports = {
       badges: ['python', 'pandas', 'keras', 'ML', 'sk-learn'],
       contents: `
       Data Science track includes one-week crash-course and 7 additional courses.
-      The crash-course is devoted to in-depth training in data analysis, machine learning algorithms and introduction to neural networks, including CV, NLP and recommerder systems.
+      The crash-course is devoted to in-depth training in data analysis, machine learning algorithms and introduction to neural networks, including such applications as CV, NLP and recommerder systems.
       The courses cover the following topics:
       * Basics of Programming
       * Basics of Solving Algorithmic Problems
