@@ -4,10 +4,9 @@ module.exports = {
   baseUrl: 'https://lakshinav.github.io/cv/',
   facts: {
     Residence: `<a href="https://goo.gl/maps/E3t2hfHBFCitGqzw7">
-                <i class="fa fa-home fact-icon"></i>
-                <span class="screen">Nizhny Novgorod</span>Nizhny Novgorod</a>`,
+                <i class="fa fa-home fact-icon"></i>Nizhny Novgorod</a>`,
     Homepage: `<a href="https://www.hse.ru/en/staff/lakshinav">
-                <i class="fa fa-home znak"></i>
+                <i class="fa fa-znak fact-icon"></i>
                   <span class="print">https://www.hse.ru/en/staff/lakshinav</span>
                   <span class="screen">hse.ru</span>
                 </a>`,
@@ -21,8 +20,9 @@ module.exports = {
   },
   skills: [
     ['Econometrics', '+++++'], ['Statistics', '++++'], ['R', '+++++'], ['LaTeX', '+++++'], ['knitr', '++++'], ['SQL', '+++'],
-    ['Python', '+++'], ['pandas', '+++'], ['sk-learn', '+++'],  ['TPOT', '+++'], ['sktime', '+++'], ['dash/plotly', '+++']
+    ['Python', '+++'], ['pandas', '+++'], ['sk-learn', '+++'],  ['TPOT', '+++'], ['sktime', '+++'], ['dash/plotly', '+++'],
     ['CI/CD', '++'], ['Kedro', '++']
+    
     // tpot + sktime = AutoML
     // web-scraping
     
