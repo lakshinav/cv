@@ -73,10 +73,10 @@ module.exports = {
 
       * web-scraping step for collecting data (BeatifulSoap)
       * building prediction (pandas, statsmodels)
-      * testing (hypothesis, Github Actions)
+      * testing (hypothesis)
       * serving the result by API (fastAPI, uvicorn)
       * scheduling the pipeline tasks, e.g. web-scraping (airflow)
-      * containerizing the pipeline (Docker)
+      * CI/CD (Docker, Github Actions)
       * evaluating metrics and presentring them on a dashboard (streamlit)
       `
     },
