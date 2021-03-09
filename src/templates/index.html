@@ -77,15 +77,25 @@ Current projects
 * Improving unemployment forecast by Google Trends data: web-scraping, AutoML, plotly/dash
 -->
 
-    <h2>Education</h2>
-    <p>PhD in Economics (Mathematical Methods of Economic Analysis), <a href="https://www.hse.ru/en/">HSE University</a>, 2015-2018.</p>
-    <p>Coursera:
-        
-    * Python Data Structures
-    * Using Databases with Python
-    * Using Python to Access Web Data
-    * HTML, CSS, and Javascript for Web Developers
-    </p>
+    <h2>Professional training</h2>
+    {{#each plays}}
+    <div class="card mb-4">
+        <div class="card-body">
+            <h3>{{ title }}</h3>
+            <p>{{ position }}</p>
+            <p class="text-muted">{{ written }}</p>
+
+            {{{markdown contents }}}
+
+            <div>
+                {{#each badges }}
+                <span class="badge badge-primary">{{ this }}</span>
+                {{/each}}
+            </div>
+        </div>
+    </div>
+    {{/each}}
+    
     
     <h2>Career insights</h2>
     <dl class="row">
@@ -94,7 +104,7 @@ Current projects
         </dt>
         <dd class="col-md-10 mb-3">
             Associate Professor, Department of Mathematical Economics, HSE University.<br/>
-            Subject taught: Econometrics I, Data Analysis and Economics and Finance, research seminar, student projects.
+            Subjects taught: Econometrics I, Data Analysis and Economics and Finance, research seminar, student projects.
         </dd>
         
         <dt class="col-md-2">
@@ -102,7 +112,7 @@ Current projects
         </dt>
         <dd class="col-md-10 mb-3">
             Senior Lecturer, Department of Mathematical Economics, HSE University.<br/>
-            Subject taught: Econometrics I, Game Theory, Macroeconomics I, research seminar.
+            Subjects taught: Econometrics I, Game Theory, Macroeconomics I, research seminar.
         </dd>
 
         
@@ -111,7 +121,7 @@ Current projects
         </dt>
         <dd class="col-md-10 mb-3">
             Lecturer, Department of Mathematical Economics, HSE University.<br/>
-            Subject taught: Microeconomics I and Econometrics I.
+            Subjects taught: Microeconomics I and Econometrics I.
         </dd>
 
         <dt class="col-md-2">
@@ -119,7 +129,7 @@ Current projects
         </dt>
         <dd class="col-md-10 mb-3">
             Teacher Assistant, Department of Mathematical Economics, HSE University.<br/>
-            Subject taught: Microeconomics I.
+            Subjects taught: Microeconomics I.
         </dd>
 
         <dt class="col-md-2">2009 &ndash; 2010</dt>
@@ -129,9 +139,22 @@ Current projects
         </dd>
 
     </dl>
+    
+    <h2>Education</h2>
+    <p>PhD in Economics (Mathematical Methods of Economic Analysis), <a href="https://www.hse.ru/en/">HSE University</a>, 2015-2018.</p>
+    <p>Coursera:
+    
+    <ul>
+    <li>Python Data Structures</li>
+    <li>Using Databases with Python</li>
+    <li>Using Python to Access Web Data</li>
+    <li>HTML, CSS, and Javascript for Web Developers</li>
+    </ul>
+    </p>
 
-    <h2>Additional Experience</h2>
+    
 <!--
+<h2>Additional Experience</h2>
     {{#each experience}}
     <div class="card mt-4">
         <div class="card-body">
