@@ -57,28 +57,28 @@ module.exports = {
 //       written: '2013-2014',
 //       badges: ['research'],
 //       contents: 'Financial volatility modelling.'
-//     }
+//     } <a href="https://cs.hse.ru/dpo/announcements/414116513.html"></a>
 //   ],
   
     positions: [ // professional training
     {
-      title: '<a href="https://cs.hse.ru/dpo/announcements/414116513.html">ML pipelines in production</a>',
+      title: 'ML pipelines in production',
       position: 'HSE University and Sber', 
       written: '11.2020-12.2020',
       badges: ['kedro', 'fastAPI', 'hypothesis', 'CI/CD', 'Docker', 'streamlit'],
       contents: `
-      During this course I've build a ML pipeline on the basis of my Jupyter notebook.  
-      The notebook is devoted to the time series prediction, namely the prediction of unemployment in Russia, and prepared for my students at HSE University.
-      The pipline is built in Kedro environment and includes:
+During this course I've build a ML pipeline on the basis of my Jupyter notebook.  
+The notebook is devoted to the time series prediction, namely the prediction of unemployment in Russia, and prepared for my students at HSE University.
+The pipline is built in Kedro environment and includes:
 
-      * web-scraping step for collecting data (BeatifulSoap)
-      * building prediction (pandas, statsmodels)
-      * testing (hypothesis)
-      * serving the result by API (fastAPI, uvicorn)
-      * scheduling the pipeline tasks, e.g. web-scraping (airflow)
-      * CI/CD (Docker, Github Actions)
-      * evaluating metrics and presentring them on a dashboard (streamlit)
-      `
+* web-scraping step for collecting data (BeatifulSoap)
+* building prediction (pandas, statsmodels)
+* testing (hypothesis)
+* serving the result by API (fastAPI, uvicorn)
+* scheduling the pipeline tasks, e.g. web-scraping (airflow)
+* CI/CD (Docker, Github Actions)
+* evaluating metrics and presentring them on a dashboard (streamlit)
+`
     },
     {
       title: 'Introduction to data-driven management',
