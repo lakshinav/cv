@@ -36,29 +36,29 @@ module.exports = {
     // testing: hypothesis
     // CI/CD: GH Actions, Docker
   ],
-  positions: [
-    {
-      title: 'HSE University',
-      position: 'Associate Professor', 
-      written: '2020 - pres.',
-      badges: ['teaching', 'research'],
-      contents: 'Econometrics course and research seminars for bachelor and master students.'
-    },
-    {
-      title: 'HSE University',
-      position: 'Senior Lecturer', 
-      written: '2014 - 2020',
-      badges: ['teaching', 'research'],
-      contents: 'Econometrics, Macroeconomics I, Game Theory courses and research seminars for bachelor and master students.'
-    },
-    {
-      title: 'Laboratory of Quantitave Methods in Economics',
-      position: 'Research Assistant',
-      written: '2013-2014',
-      badges: ['research'],
-      contents: 'Financial volatility modelling.'
-    }
-  ],
+//   positions: [
+//     {
+//       title: 'HSE University',
+//       position: 'Associate Professor', 
+//       written: '2020 - pres.',
+//       badges: ['teaching', 'research'],
+//       contents: 'Econometrics course and research seminars for bachelor and master students.'
+//     },
+//     {
+//       title: 'HSE University',
+//       position: 'Senior Lecturer', 
+//       written: '2014 - 2020',
+//       badges: ['teaching', 'research'],
+//       contents: 'Econometrics, Macroeconomics I, Game Theory courses and research seminars for bachelor and master students.'
+//     },
+//     {
+//       title: 'Laboratory of Quantitave Methods in Economics',
+//       position: 'Research Assistant',
+//       written: '2013-2014',
+//       badges: ['research'],
+//       contents: 'Financial volatility modelling.'
+//     }
+//   ],
   
     positions: [ // professional training
     {
