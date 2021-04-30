@@ -65,7 +65,7 @@ module.exports = {
       written: '11.2020-12.2020',
       badges: ['kedro', 'fastAPI', 'hypothesis', 'CI/CD', 'Docker'],
       contents: `
-During this <a href="https://cs.hse.ru/dpo/announcements/414116513.html">course</a> I've build a ML pipeline on the basis of my Jupyter notebook.  
+During this [course](https://cs.hse.ru/dpo/announcements/414116513.html). I've build a ML pipeline on the basis of my Jupyter notebook.  
 The notebook is devoted to the time series prediction, namely the prediction of unemployment in Russia, and was used the student project at HSE University.
 The pipline is built in Kedro environment and includes:
 
@@ -87,6 +87,7 @@ The pipline is built in Kedro environment and includes:
       This online-course is supported by Russian Federal Project "Human Resources for the Digital Economy".
       It's devoted to digital transformation of Russian economy and the role of CDO's.
       `
+      
     },
     {
       title: 'Summer digital school: Data Science track',
@@ -95,7 +96,8 @@ The pipline is built in Kedro environment and includes:
       badges: ['python', 'ML', 'pandas', 'keras', 'sk-learn'],
       contents: `
       Data Science track includes one-week crash-course and 7 additional courses.
-      The crash-course is devoted to in-depth training in data analysis, machine learning algorithms and introduction to neural networks, including such applications as CV, NLP and recommerder systems.
+      The crash-course is devoted to in-depth training in data analysis, machine learning algorithms and introduction to neural networks, 
+      including such applications as CV, NLP and recommerder systems.
       The courses cover the following topics:
       * Basics of Programming
       * Basics of Solving Algorithmic Problems
@@ -103,6 +105,7 @@ The pipline is built in Kedro environment and includes:
       * Python for Data Analysis
       * Machine Learning
       `
+      
     },
   ],
   
