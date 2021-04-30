@@ -67,7 +67,7 @@ module.exports = {
       contents: `
 During this [course](https://cs.hse.ru/dpo/announcements/414116513.html) I've build a ML pipeline on the basis of my Jupyter notebook.  
 The notebook is devoted to the time series prediction, namely the prediction of unemployment in Russia, and was used the student project at HSE University.
-The pipline is built in Kedro environment and includes:
+The pipeline is built in Kedro environment and includes:
 
 * web-scraping step for collecting data (BeatifulSoap)
 * building prediction (pandas, statsmodels)
@@ -84,8 +84,8 @@ The pipline is built in Kedro environment and includes:
       written: '09.2020-10.2020',
       badges: ['CDO', 'digital transformation'],
       contents: `
-      This online-course is supported by Russian Federal Project "Human Resources for the Digital Economy".
-      It's devoted to digital transformation of Russian economy and the role of CDO's.
+This online-course is supported by Russian Federal Project "Human Resources for the Digital Economy".
+It's devoted to digital transformation of Russian economy and the role of CDO's.
       `
       
     },
@@ -95,17 +95,17 @@ The pipline is built in Kedro environment and includes:
       written: '07.2020-08.2020',
       badges: ['python', 'ML', 'pandas', 'keras', 'sk-learn'],
       contents: `
-      Data Science track includes one-week crash-course and 7 additional courses.
-      The crash-course is devoted to in-depth training in data analysis, machine learning algorithms and introduction to neural networks, 
-      including such applications as CV, NLP and recommerder systems.
-      The courses cover the following topics:
+Data Science track includes one-week crash-course and 7 additional courses.
+The crash-course is devoted to in-depth training in data analysis, machine learning algorithms and introduction to neural networks, 
+including such applications as CV, NLP and recommerder systems.
+
+The courses cover the following topics:
 
       * Basics of Programming
       * Basics of Solving Algorithmic Problems
       * Basics of SQL
       * Python for Data Analysis
       * Machine Learning
-
       `
       
     },
