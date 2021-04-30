@@ -6,7 +6,7 @@ module.exports = {
     Residence: `<a href="https://goo.gl/maps/E3t2hfHBFCitGqzw7">
                 <i class="fa fa-home fact-icon"></i>Nizhny Novgorod</a>`,
     Homepage: `<a href="https://www.hse.ru/en/staff/lakshinav">
-                  <i class="fa fa-university fact-icon"></i>
+                  <i class="fa fa-university"></i>
                   <span class="print">https://www.hse.ru/en/staff/lakshinav</span>
                   <span class="screen">hse.ru</span>
                 </a>`,
@@ -66,10 +66,10 @@ module.exports = {
       title: 'ML pipelines in production',
       position: 'HSE University and Sber', 
       written: '11.2020-12.2020',
-      badges: ['kedro', 'fastAPI', 'hypothesis', 'CI/CD', 'Docker', 'streamlit'],
+      badges: ['kedro', 'fastAPI', 'hypothesis', 'CI/CD', 'Docker'],
       contents: `
-During this course I've build a ML pipeline on the basis of my Jupyter notebook.  
-The notebook is devoted to the time series prediction, namely the prediction of unemployment in Russia, and was used the student project at HSE University .
+During this <a href="https://cs.hse.ru/dpo/announcements/414116513.html">course</a> I've build a ML pipeline on the basis of my Jupyter notebook.  
+The notebook is devoted to the time series prediction, namely the prediction of unemployment in Russia, and was used the student project at HSE University.
 The pipline is built in Kedro environment and includes:
 
 * web-scraping step for collecting data (BeatifulSoap)
@@ -78,6 +78,7 @@ The pipline is built in Kedro environment and includes:
 * serving the result by API (fastAPI, uvicorn)
 * scheduling the pipeline tasks, e.g. web-scraping (airflow)
 * CI/CD (Docker, Github Actions)
+* evaluating metrics
 `
     },
     {
