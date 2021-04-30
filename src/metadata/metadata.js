@@ -10,7 +10,7 @@ module.exports = {
                   <span class="print">https://www.hse.ru/en/staff/lakshinav</span>
                   <span class="screen">hse.ru</span>
                 </a>`,
-    GitHub: '<a href="https://github.com/lakshinav"><i class="fab fa-github"></i>lakshinav</a>',
+    GitHub: '<a href="https://github.com/lakshinav"><i class="fa fa-github"></i>lakshinav</a>',
     Email: '<a href="mailto:lakshinav@gmail.com">lakshinav@gmail.com</a>'
 //     'LinkedIn': 
 //     'StackOverflow':
