@@ -6,10 +6,7 @@ module.exports = {
     Residence: `<a href="https://goo.gl/maps/E3t2hfHBFCitGqzw7">
                 <i class="fa fa-home fact-icon"></i>Nizhny Novgorod</a>`,
     Homepage: `<a href="https://www.hse.ru/en/staff/lakshinav">
-                  <i class="fa fa-university"></i>
-                  <span class="print">https://www.hse.ru/en/staff/lakshinav</span>
-                  <span class="screen">hse.ru</span>
-                </a>`,
+                  <i class="fa fa-university"></i>hse.ru</a>`,
     GitHub: '<a href="https://github.com/lakshinav"><i class="fa fa-github"></i>lakshinav</a>',
     Email: '<a href="mailto:lakshinav@gmail.com"><i class="fa fa-envelope"></i>lakshinav@gmail.com</a>'
 //     'LinkedIn': 
