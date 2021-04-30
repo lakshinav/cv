@@ -6,11 +6,11 @@ module.exports = {
     Residence: `<a href="https://goo.gl/maps/E3t2hfHBFCitGqzw7">
                 <i class="fa fa-home fact-icon"></i>Nizhny Novgorod</a>`,
     Homepage: `<a href="https://www.hse.ru/en/staff/lakshinav">
-                <i class="fab fa-znak fact-icon"></i>
+                <link rel="icon" href="znak.ico" type="image/x-icon"/>
                   <span class="print">https://www.hse.ru/en/staff/lakshinav</span>
                   <span class="screen">hse.ru</span>
                 </a>`,
-    GitHub: '<a href="https://github.com/lakshinav"><i class="fab fa-github fact-icon"></i>lakshinav</a>',
+    GitHub: '<a href="https://github.com/lakshinav"><i class="fab fa-github"></i>lakshinav</a>',
     Email: '<a href="mailto:lakshinav@gmail.com">lakshinav@gmail.com</a>'
 //     'LinkedIn': 
 //     'StackOverflow':
@@ -19,7 +19,7 @@ module.exports = {
     
   },
   skills: [
-    ['Econometrics', '+++++'], ['Statistics', '++++'], ['R', '+++++'], ['LaTeX', '+++++'], ['knitr', '++++'], ['SQL', '+++'],
+    ['Econometrics', '+++++'], ['Statistics', '+++++'], ['R', '+++++'], ['LaTeX', '+++++'], ['knitr', '++++'], ['SQL', '+++'],
     ['Python', '+++'], ['pandas', '+++'], ['sk-learn', '+++'],  ['TPOT', '+++'], ['sktime', '+++'], ['dash/plotly', '+++'],
     ['CI/CD', '++'], ['Kedro', '++']
     
@@ -35,6 +35,7 @@ module.exports = {
     // ML pipeline: kedro
     // testing: hypothesis
     // CI/CD: GH Actions, Docker
+    // * evaluating metrics and presentring them on a dashboard (streamlit)
   ],
 //   positions: [
 //     {
@@ -68,7 +69,7 @@ module.exports = {
       badges: ['kedro', 'fastAPI', 'hypothesis', 'CI/CD', 'Docker', 'streamlit'],
       contents: `
 During this course I've build a ML pipeline on the basis of my Jupyter notebook.  
-The notebook is devoted to the time series prediction, namely the prediction of unemployment in Russia, and prepared for my students at HSE University.
+The notebook is devoted to the time series prediction, namely the prediction of unemployment in Russia, and was used the student project at HSE University .
 The pipline is built in Kedro environment and includes:
 
 * web-scraping step for collecting data (BeatifulSoap)
@@ -77,7 +78,6 @@ The pipline is built in Kedro environment and includes:
 * serving the result by API (fastAPI, uvicorn)
 * scheduling the pipeline tasks, e.g. web-scraping (airflow)
 * CI/CD (Docker, Github Actions)
-* evaluating metrics and presentring them on a dashboard (streamlit)
 `
     },
     {
@@ -108,4 +108,5 @@ The pipline is built in Kedro environment and includes:
     },
   ],
   
+   
 };
