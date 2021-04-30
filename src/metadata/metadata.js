@@ -65,7 +65,7 @@ module.exports = {
       written: '11.2020-12.2020',
       badges: ['kedro', 'fastAPI', 'hypothesis', 'CI/CD', 'Docker'],
       contents: `
-During this [course](https://cs.hse.ru/dpo/announcements/414116513.html). I've build a ML pipeline on the basis of my Jupyter notebook.  
+During this [course](https://cs.hse.ru/dpo/announcements/414116513.html) I've build a ML pipeline on the basis of my Jupyter notebook.  
 The notebook is devoted to the time series prediction, namely the prediction of unemployment in Russia, and was used the student project at HSE University.
 The pipline is built in Kedro environment and includes:
 
@@ -99,11 +99,13 @@ The pipline is built in Kedro environment and includes:
       The crash-course is devoted to in-depth training in data analysis, machine learning algorithms and introduction to neural networks, 
       including such applications as CV, NLP and recommerder systems.
       The courses cover the following topics:
+
       * Basics of Programming
       * Basics of Solving Algorithmic Problems
       * Basics of SQL
       * Python for Data Analysis
       * Machine Learning
+
       `
       
     },
