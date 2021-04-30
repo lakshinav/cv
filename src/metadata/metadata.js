@@ -6,12 +6,12 @@ module.exports = {
     Residence: `<a href="https://goo.gl/maps/E3t2hfHBFCitGqzw7">
                 <i class="fa fa-home fact-icon"></i>Nizhny Novgorod</a>`,
     Homepage: `<a href="https://www.hse.ru/en/staff/lakshinav">
-                <link rel="icon" href="znak.ico" type="image/x-icon"/>
+                  <i class="fa fa-university fact-icon"></i>
                   <span class="print">https://www.hse.ru/en/staff/lakshinav</span>
                   <span class="screen">hse.ru</span>
                 </a>`,
     GitHub: '<a href="https://github.com/lakshinav"><i class="fa fa-github"></i>lakshinav</a>',
-    Email: '<a href="mailto:lakshinav@gmail.com">lakshinav@gmail.com</a>'
+    Email: '<a href="mailto:lakshinav@gmail.com"><i class="fa fa-envelope"></i>lakshinav@gmail.com</a>'
 //     'LinkedIn': 
 //     'StackOverflow':
 //     'Kaggle':
@@ -94,7 +94,7 @@ The pipline is built in Kedro environment and includes:
       title: 'Summer digital school: Data Science track',
       position: 'Sberbank Corporate University', 
       written: '07.2020-08.2020',
-      badges: ['python', 'pandas', 'keras', 'ML', 'sk-learn'],
+      badges: ['python', 'ML', 'pandas', 'keras', 'sk-learn'],
       contents: `
       Data Science track includes one-week crash-course and 7 additional courses.
       The crash-course is devoted to in-depth training in data analysis, machine learning algorithms and introduction to neural networks, including such applications as CV, NLP and recommerder systems.
