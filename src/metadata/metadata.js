@@ -66,7 +66,7 @@ module.exports = {
       badges: ['kedro', 'fastAPI', 'hypothesis', 'CI/CD', 'Docker'],
       contents: `
 During this [course](https://cs.hse.ru/dpo/announcements/414116513.html) I've build a ML pipeline on the basis of my Jupyter notebook.  
-The notebook is devoted to the time series prediction, namely the prediction of unemployment in Russia, and was used the student project at HSE University.
+The notebook is devoted to the time series prediction, namely the prediction of unemployment in Russia, and was used in the student project at HSE University.
 The pipeline is built in Kedro environment and includes:
 
 * web-scraping step for collecting data (BeatifulSoap)
