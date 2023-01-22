@@ -1,14 +1,15 @@
 module.exports = {
-  name: 'Valeriya Lakshina, PhD',
-  title: 'Senior Engineer, Associate Professor',
+  name: 'Valeriya Lakshina',
+  title: 'PhD, Senior Engineer,
+  Associate Professor',
   baseUrl: 'https://lakshinav.github.io/cv/',
   facts: {
     Residence: `<a href="https://goo.gl/maps/E3t2hfHBFCitGqzw7">
                 <i class="fa fa-home fact-icon"></i>Nizhny Novgorod</a>`,
     Homepage: `<a href="https://www.hse.ru/en/staff/lakshinav">
                   <i class="fa fa-university"></i>hse.ru</a>`,
-    GitHub: '<a href="https://github.com/lakshinav"><i class="fa fa-github"></i>lakshinav</a>',
-    Email: '<a href="mailto:lakshinav@gmail.com"><i class="fa fa-envelope"></i>lakshinav@gmail.com</a>'
+    GitHub: '<a href="https://github.com/lakshinav"><i class="fab fa-github fact-icon"></i>lakshinav</a>',
+    Email: '<a href="mailto:lakshinav@gmail.com"><i class="fa fa-envelope fact-icon"></i>lakshinav@gmail.com</a>'
   },
   skills: [
     ['Python', 90],
