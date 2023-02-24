@@ -1,7 +1,6 @@
 module.exports = {
   name: 'Valeriya Lakshina',
-  title: 'PhD, Senior Engineer,
-  Associate Professor',
+  title: 'PhD, Senior Engineer,  Associate Professor',
   baseUrl: 'https://lakshinav.github.io/cv/',
   facts: {
     Residence: `<a href="https://goo.gl/maps/E3t2hfHBFCitGqzw7">
