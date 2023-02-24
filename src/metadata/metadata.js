@@ -34,7 +34,7 @@ module.exports = {
       contents: `
 Completed a project on neural network compresion and acceleration, mainly for CV architectures. 
 Currently working on the next project in the same field and lead a team of 8 engineers and interns.
-The stack includes PyTorch, ONNX, TVM. 
+The stack includes PyTorch, ONNX. 
 `
     },  
     {
