@@ -5,6 +5,7 @@ module.exports = {
   facts: {
     Residence: `<a href="https://goo.gl/maps/E3t2hfHBFCitGqzw7">
                 <i class="fa fa-home fact-icon"></i>Nizhny Novgorod</a>`,
+    LinkedIn: '<a href="https://www.linkedin.com/in/lakshinav"><i class="fab fa-linkedin fact-icon"></i>lakshinav</a>',
     Homepage: `<a href="https://www.hse.ru/en/staff/lakshinav">
                   <i class="fa fa-university"></i>hse.ru</a>`,
     GitHub: '<a href="https://github.com/lakshinav"><i class="fab fa-github fact-icon"></i>lakshinav</a>',
